@@ -1,10 +1,60 @@
 #rgb {
     background-color: rgb(138, 96, 206);
+    padding: 20px;
+    color: white;
 }
 
 #cmyk {
     background-color: rgb(243, 93, 93);
+    padding: 20px;
+    color: white;
 }
-body{
+
+body {
     background-color: rgb(209, 131, 196);
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(138, 96, 206);
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    display: inline-block;
+}
+
+img {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    height: auto;
 }

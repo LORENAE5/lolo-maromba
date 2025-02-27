@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGB vs CMYK</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Entendendo RGB e CMYK</h1>
+        <nav>
+            <ul>
+                <li><a href="#rgb">RGB</a></li>
+                <li><a href="#cmyk">CMYK</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="rgb"> 
+        <h2>RGB - Red, Green, Blue</h2>
+        <p>O modelo de cores RGB é utilizado principalmente para exibição de cores em dispositivos como monitores e telas de celulares. Nesse modelo, as cores são formadas pela combinação de luzes vermelha (Red), verde (Green) e azul (Blue).</p>
+        <p>Essas cores podem ser combinadas em diferentes intensidades para criar uma vasta gama de cores. O valor de cada cor varia de 0 a 255, sendo 0 a ausência de luz e 255 a intensidade máxima.</p>
+        O modelo aditivo de cores, como o RGB, é um método de criação de cores a partir da combinação de luzes de diferentes cores primárias. No caso do RGB, essas cores primárias são vermelho (Red), verde (Green) e azul (Blue).
+         O princípio básico do modelo aditivo é que, ao combinar luzes dessas cores em diferentes intensidades, conseguimos criar uma ampla gama de outras cores.
+        <div class="color-box" style="background-color: rgb(81, 44, 180);">RGB(255, 0, 0)</div>
+        <div class="color-box" style="background-color: rgb(255, 0, 255);">RGB(0, 255, 0)</div>
+        <div class="color-box" style="background-color: rgb(255, 0, 242);">RGB(0, 0, 255)</div>
+    </section>
+
+    <section id="cmyk">
+        <h2>CMYK - Cyan, Magenta, Yellow, Key (Black)</h2>
+        <p>O modelo de cores CMYK é utilizado principalmente em impressão. Ele combina ciano (Cyan), magenta (Magenta), amarelo (Yellow) e preto (Key) para criar cores no papel.</p>
+        <p>Esse modelo trabalha com a absorção de luz, sendo que cada tinta absorve uma cor diferente e reflete as outras. As porcentagens de cada cor determinam a tonalidade final.</p>
+        O modelo subtrativo de cores, como o CMYK, é usado principalmente para impressão e funciona de forma oposta ao modelo aditivo (RGB). Enquanto o RGB cria cores a partir de luz, o CMYK trabalha com tintas ou pigmentos que absorvem (subtraem) certos comprimentos de onda de luz e refletem outros. 
+        Esse processo é baseado na ideia de que a cor final que vemos é determinada pela luz que é refletida pelas tintas e não pela luz que é emitida.
+        <div class="color-box" style="background-color: rgb(255, 0, 0);">CMYK(100%, 0%, 0%, 0%)</div>
+        <div class="color-box" style="background-color: rgb(255, 0, 55);">CMYK(0%, 100%, 0%, 0%)</div>
+        <div class="color-box" style="background-color: rgb(255, 0, 128);">CMYK(0%, 0%, 100%, 0%)</div>
+        <div class="color-box" style="background-color: rgb(209, 16, 135);">CMYK(0%, 0%, 0%, 100%)</div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
